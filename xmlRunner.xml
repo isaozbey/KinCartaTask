@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+    <test name="Data Provide test" parallel="methods" thread-count="2">
+   <parameter name="name" value="IsaOzbey"></parameter>
+     <classes>
+         <class name="SeleniumPractice.dataProviderPractice"></class>
+     </classes>
+    </test>
+
+
+</suite>
